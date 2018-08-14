@@ -1,0 +1,40 @@
+<div> - </div>
+
+<div> - </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Chat online Angular 2 e Node.js - com Sockect-io </label>
+        <input type="text" class="form-control" id="novaMensagem" placeholder="Mensagem" #mensagem>
+      </div>
+      <button type="button" for="novaMensagem" class="btn btn-success" (click)="enviarMensagem(mensagem.value)">Enviar Mensagem</button>
+    </div>
+  </div>
+</div>
+
+<div> - </div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <label for="">Enviadas:</label>
+      <ul class="list-group">
+        <li class="list-group-item active" *ngFor="let msg of listaMensagemEnviadas">
+          {{msg}}
+        </li>
+      </ul>
+
+    </div>
+
+    <div class="col-sm">
+      <label for="">Recebidas:</label>
+      <ul class="list-group">
+        <li class="list-group-item active" *ngFor="let msg of listaMensagemRecebida">
+          {{msg}}
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</div>
