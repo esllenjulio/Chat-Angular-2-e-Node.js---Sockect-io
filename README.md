@@ -1,5 +1,5 @@
-# Chat-Angular-2-e-Node.js---Sockect-io
-Chat Angular 2 e Node.js - Sockect-io
+# Chat-  Angular2 e Node.js  -Socket-io
+Chat Angular 2 e Node.js - Socket-io
 
 
 Quando estava iniciando com angular 2 percebi que não tinha muita coisa relacionado com servidor Nodejs e socket.io, por isso decidi resevar um tempo para criar um chat simples que utiliza atravez de socket-io para enviar mensagem a outro usúario, projeto simples mas de grande conhecimento para quem quiser de fato aprender e apromorar os seus.
